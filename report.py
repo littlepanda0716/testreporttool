@@ -24,4 +24,6 @@ for j in range (3):
                         for picindex,pic in enumerate(pics):
                             image1 = Image.open(pic)
                             st.image(image1,caption='issue '+str(j+1)+'.'+str(i+1)+'.'+str(ki+1)+' 配图 '+str(picindex+1),use_column_width=True)
-            
+if st.button('提交'):
+    st.subheader('')
+    st.image(image1,caption='issue '+str(j+1)+'.'+str(i+1)+'.'+str(ki+1)+' 配图 '+str(picindex+1),use_column_width=True)
