@@ -8,7 +8,7 @@ Created on Sat Jan  9 20:34:32 2021
 import streamlit as st
 from PIL import Image
 
-st.header(':computer:  测试报告工具')
+st.title(':computer:  测试报告工具')
 nl=[5,8,3]
 for j in range (3):
     with st.beta_expander('测试指标 '+str(j+1),expanded=True):
