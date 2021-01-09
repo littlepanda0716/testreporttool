@@ -10,6 +10,7 @@ import streamlit as st
 
 st.header(':computer:  测试报告工具')
 nl=[5,8,3]
+
 for j in range (3):
     with st.beta_expander('测试指标 '+str(j+1),expanded=True):
         cl1=[]
